@@ -1,12 +1,13 @@
 import React from 'react';
 import ukFlag from '/images/united-kingdom-flag-icon.svg';
 import turkeyFlag from '/images/turkey-flag-icon.svg';
+import frenchFlag from '/images/france-flag-icon.svg';
 
 const LanguageToggle = ({ language, onToggle }) => {
   return (
     <div className="flex gap-2">
       <button
-        onClick={onToggle}
+        onClick={onToggle("en")}
         className={`flex items-center justify-center p-2 rounded-lg transition-all duration-200
           ${language === 'en'
             ? 'bg-blue-100 ring-2 ring-blue-300'
@@ -20,7 +21,7 @@ const LanguageToggle = ({ language, onToggle }) => {
         />
       </button>
       <button
-        onClick={onToggle}
+        onClick={onToggle("tr")}
         className={`flex items-center justify-center p-2 rounded-lg transition-all duration-200
           ${language === 'tr'
             ? 'bg-red-100 ring-2 ring-red-300'
@@ -30,6 +31,20 @@ const LanguageToggle = ({ language, onToggle }) => {
         <img
           src={turkeyFlag}
           alt="Turkish flag"
+          className="w-7 h-7"
+        />
+      </button>
+      <button
+        onClick={onToggle("fr")}
+        className={`flex items-center justify-center p-2 rounded-lg transition-all duration-200
+          ${language === 'fr'
+            ? 'bg-red-100 ring-2 ring-red-300'
+            : 'hover:bg-gray-100'}`}
+        aria-label="Passer en français"
+      >
+        <img
+          src={frenchFlag}
+          alt="French flag"
           className="w-7 h-7"
         />
       </button>

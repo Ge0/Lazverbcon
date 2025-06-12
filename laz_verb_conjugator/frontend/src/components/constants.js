@@ -343,6 +343,158 @@ export const translations = {
         ]
       }
     }
+  },
+  fr: {
+    title: 'Conjugueur de verbes lazes',
+    infinitive: 'Infinitif',
+    subject: 'Subject',
+    object: 'Object',
+    tense: 'Tense',
+    aspect: 'Aspect',
+    regions: 'Regions',
+    applicative: 'Applicative',
+    imperative: 'Imperative',
+    causative: 'Causative',
+    negImperative: 'Negative Imperative',
+    optative: 'Optative',
+    conjugate: 'Conjugate',
+    reset: 'Reset',
+    results: 'Results',
+    betaMessage: 'Some conjugations may be grammatically correct but are not commonly used. If you are unsure, please consult your elders to obtain the correct conjugation for your community. If you spot a mistake, please submit your feedback using the',
+    thankYouNote: {
+      prefix: 'Special thanks to the ',
+      linkText: 'Laz Institute',
+      suffix: ' for their support of this project.',
+      url: 'https://www.lazenstitu.com/'
+    },
+    feedbackLinkText: 'feedback form',
+    feedbackTitle: 'Submit Feedback',
+    feedbackLabels: {
+      incorrectWord: 'Incorrect Word(s)',
+      correction: 'Correction',
+      explanation: 'Explanation',
+      cancel: 'Cancel',
+      submit: 'Submit',
+    },
+    verbListMessage: 'See here for a',
+    verbListLinkText: 'list of available verbs',
+    feedbackLoadingMessage: 'Submitting...',
+    feedbackDisclaimer: 'Phone users using Google Chrome may experience difficulties submitting the form; please use a different browser or use Incognito Mode.',
+    searchPlaceholder: 'Search verbs...',
+    backToConjugator: 'Back to Conjugator',
+    verbsListTitle: 'Available Verbs',
+
+    // New translations for home and additional pages
+    homeTitle: 'Laz Language Learning Center',
+    homeSubtitle: 'Learn Laz with interactive tools and resources',
+    navigation: {
+      home: 'Home',
+      conjugator: 'Conjugator',
+      classes: 'Classes',
+      about: 'About',
+      verbs: 'Verbs'
+    },
+    info:{
+      prefix: 'For questions or inquiries, please email',
+      linkText: 'info@lazuri.org',
+      suffix: '.',
+      url: 'info@lazuri.org',
+    },
+    conjugatorCard: {
+      title: 'Verb Conjugator',
+      description: 'Practice conjugating Laz verbs in most tenses and moods.'
+    },
+    classesCard: {
+      title: 'Laz Workshops',
+      description: 'Join live online Laz language groups with other students.'
+    },
+    keyboardCard: {
+      title: 'Laz Keyboard',
+      description: 'Learn how to type Laz characters'
+    },
+    verbListCard: {
+      title: 'Verb List',
+      description: 'Browse our comprehensive list of Laz verbs.'
+    },
+    patronCard: {
+      title: 'Support Us',
+      description: 'Help us create more Laz language learning resources.'
+    },
+    resourceCard: {
+      title: 'Additional Resources',
+      description: 'Find additional resources for learning Laz'
+    },
+    resourceContent: {
+      dictionariesTitle: 'Dictionaries',
+      lazInstituteDictionary: {
+        title: 'The Laz Institute\'s Dictionary',
+        description: 'A comprehensive dictionary containing major dialects, audio samples, and example sentences.',
+        linkText: 'Visit the Laz Institute Dictionary',
+      },
+      lazcaXyzDictionary: {
+        title: 'Lazca.xyz Dictionary',
+        description: 'A dictionary containing Laz words based on the research of Japanese linguist Goichi Kojima. The dictionary is hosted on a website created by Erdinç Hoşver.',
+        linkText: 'Visit Lazca.xyz Dictionary',
+      },
+      generalInformationTitle: 'General Information',
+      lazInstitute: {
+        title: 'The Laz Institute',
+        description: 'The institute\'s home page, leading to many additional resources ranging from cultural articles to comprehensive vocabulary lists and educational YouTube videos.',
+        linkText: 'Visit the Laz Institute',
+      },
+      callToAction: 'If you would like to suggest additional resources, please reach out to me at:',
+    },
+    aboutTitle: 'About Me',
+    aboutContent: {
+      intro: 'The Laz Language Learning Center was created to help people learn Laz. Our tools make it easier to understand and practice the complex verb conjugation system in Laz.',
+      growth: 'What started as a simple conjugation tool has grown into a comprehensive resource for Laz language learners.',
+      mission: 'Our Mission',
+      missionText: 'We aim to make Laz language learning more accessible and enjoyable by providing high-quality tools and resources.'
+    },
+    signUpbutton: 'Sign Up',
+    classesTitle: 'Laz Workshops',
+    classTypes: {
+      title: 'Available Workshops',
+      teacherDescription: 'With a teaching degree in Modern Languages from Goldsmiths, University of London, I have applied their student-centered, meaningful lesson methodologies at the Laz Institute. My approach integrates cultural awareness to teach an endangered language to heritage learners, effectively supporting even absolute beginners. Students are introduced to grammar and vocabulary through playful methods and are encouraged to engage actively throughout the learning process. For questions or inquiries, please email info@lazuri.org.',
+      cost: 'All workshops are free of charge.',
+      individual: {
+        title: 'Beginner Groups',
+        schedule: 'Starting January 29th - Weekly classes from 8:00 PM to 9:00 PM (UTC+3, Istanbul Time) for 12 weeks',
+        platform: 'Zoom',
+        description: 'At this level, students learn to communicate on simple topics such as basic greetings, asking questions, introducing themselves, and numbers. The aim is to develop basic grammar skills with structures like dative, possessive, and ergative verb forms. Ideal for students who have very limited knowledge of the language. In this workshop, you will learn:',
+        features: [
+          'Dative verbs',
+          'Possessive (-şi)',
+          'Ergative verbs',
+          'Plural forms',
+          'Basic adjectives',
+          'Numbers',
+          'Body parts',
+          'Family terms',
+          'Simple sentences with possessive suffixes'
+          
+        ]
+      },
+      group: {
+        title: 'Upper Beginner Groups',
+        description: 'At this level, students are expected to hold more fluent conversations using past tense, imperative mood, and conditional sentences. The goal is to express themselves on topics such as clothes, food, birthdays, and geography. They are also expected to communicate more comfortably on daily topics like asking for directions in the city and the weather.',
+        schedule: 'Starting February 2nd Sunday from 5:00 PM - 6:00 PM, for 12 weeks.',
+        platform: 'Zoom',
+        features: [
+          'Past tense',
+          'Plural (repetition)',
+          'Imperative mood',
+          'Conditional-result sentences',
+          'Future tense of ergative verbs',
+          'Clothes',
+          'Fruits',
+          'Birthday terms',
+          'Geography',
+          'Weather',
+          'Buildings in the city'
+        ]
+      }
+    }
   }
 };
 

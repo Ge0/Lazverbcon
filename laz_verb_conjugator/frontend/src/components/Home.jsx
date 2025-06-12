@@ -8,8 +8,9 @@ const HomePage = () => {
   const [language, setLanguage] = useState(getStoredLanguage());
   const t = translations[language];
   
-  const toggleLanguage = () => {
-    const newLanguage = language === 'en' ? 'tr' : 'en';
+  const toggleLanguage = (newLanguage) => {
+    console.log("New language:");
+    console.log(newLanguage);
     setLanguage(newLanguage);
     setStoredLanguage(newLanguage);
   };
